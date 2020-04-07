@@ -49,6 +49,20 @@ npm install @compactjs/clipboard
 import { clipboard } from '@compactjs/clipboard';
 ```
 
+API:
+
+```typescript
+/**
+ * Copy text to clipboard.
+ * @param input Either text to copy or HTMLElement to copy from
+ */
+function clipboard(
+  input: string | HTMLTextAreaElement | HTMLInputElement
+): void;
+```
+
+**Note:** A copy to clipboard need to be triggered by user action, like a button press!
+
 ### Example:
 
 ```javascript
