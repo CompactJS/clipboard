@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Test Page</title>
+  </head>
+  <body>
+    <header>
+      <a href="https://github.com/CompactJS/clipboard"
+        >@compactjs/clipboard - Demo</a
+      >
+    </header>
+    <main>
+      <button id="copy-string">Copy String</button>
+      <textarea id="input-text"></textarea>
+      <button id="copy-input">Copy from Input</button>
+    </main>
+    <script type="module">
+      import { clipboard } from './dist/index.module.js';
+
+      document
+        .getElementById('copy-string')
+        .addEventListener('click', () => clipboard('test' + Math.random()));
+
+      const inputText = document.getElementById('input-text');
+      document
+        .getElementById('copy-input')
+        .addEventListener('click', () => clipboard(inputText));
+    </script>
+  </body>
+</html>
