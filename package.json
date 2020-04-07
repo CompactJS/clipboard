@@ -21,7 +21,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/clipboard/clipboard.git"
+    "url": "git+https://github.com/CompactJS/clipboard.git"
   },
   "keywords": [
     "javascript",
@@ -32,9 +32,9 @@
   "author": "Timo Bechtel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/clipboard/clipboard/issues"
+    "url": "https://github.com/CompactJS/clipboard/issues"
   },
-  "homepage": "https://github.com/clipboard/clipboard#readme",
+  "homepage": "https://github.com/CompactJS/clipboard#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.0",
     "@semantic-release/git": "^9.0.0",

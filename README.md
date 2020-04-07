@@ -81,7 +81,7 @@ npm run test
 
 Contributions, issues and feature requests are welcome!<br />
 
-1. Check [issues](https://github.com/clipboard/clipboard/issues)
+1. Check [issues](https://github.com/CompactJS/clipboard/issues)
 1. Fork the Project
 1. Create your Feature Branch (`git checkout -b feat/AmazingFeature`)
 1. Test your changes `npm run test`
@@ -99,7 +99,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Distributed under the [MIT](https://github.com/clipboard/clipboard/blob/master/LICENSE) License.
+Distributed under the [MIT](https://github.com/CompactJS/clipboard/blob/master/LICENSE) License.
 
 ---
 
