@@ -4,7 +4,7 @@
   <a href="https://www.npmjs.com/package/@compactjs/clipboard" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/@compactjs/clipboard.svg">
   </a>
-  <a href="https://github.com/CompactJS/clipboard/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/CompactJS/clipboard/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/CompactJS/clipboard" />
   </a>
 </p>
@@ -73,7 +73,7 @@ document
   );
 ```
 
-Have a look at the [example](https://github.com/CompactJS/clipboard/blob/master/example/index.html).
+Have a look at the [example](https://github.com/CompactJS/clipboard/blob/main/example/index.html).
 
 Or checkout the [demo](https://compactjs.github.io/clipboard).
 
@@ -113,7 +113,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Distributed under the [MIT](https://github.com/CompactJS/clipboard/blob/master/LICENSE) License.
+Distributed under the [MIT](https://github.com/CompactJS/clipboard/blob/main/LICENSE) License.
 
 ---
 
