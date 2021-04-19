@@ -8,10 +8,10 @@
   "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "microbundle && npm run build:example",
-    "build:example": "microbundle build -f es -o example/dist/index.mjs",
+    "build": "microbundle --no-sourcemap && npm run build:example",
+    "build:example": "microbundle build --no-sourcemap -f es -o example/dist/index.mjs",
     "dev": "microbundle watch -f es -o example/dist/index.mjs",
-    "prepare": "npm run build",
+    "prepack": "npm run build",
     "test": "echo no tests defined; exit 0"
   },
   "files": [
